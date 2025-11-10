@@ -1,0 +1,16 @@
+[project]
+name = "youtube"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp[cli]>=1.21.0",
+    "python-dotenv>=1.2.1",
+    "youtube-transcript-api>=1.2.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]
